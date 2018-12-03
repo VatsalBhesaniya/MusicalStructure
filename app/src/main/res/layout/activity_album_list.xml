@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/album_scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/album_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginBottom="16dp"
+                android:contentDescription="@string/album_image"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_margin="16dp"
+                android:background="@null"
+                android:contentDescription="@string/album_name"
+                android:src="@drawable/ic_arrow_back_white_24dp" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/album_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingStart="16dp"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            tools:ignore="RtlSymmetry" />
+
+        <ListView
+            android:id="@+id/album_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp"
+            android:paddingStart="8dp"
+            tools:ignore="NestedScrolling,RtlSymmetry" />
+
+    </LinearLayout>
+</ScrollView>

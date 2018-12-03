@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="listview_image_size">60dp</dimen>
+    <dimen name="padding_16dp">16dp</dimen>
+    <dimen name="textsize_20sp">20sp</dimen>
+    <dimen name="textsize_16sp">16sp</dimen>
+    <dimen name="option_menu_size">24dp</dimen>
+    <dimen name="gridview_image_height">150dp</dimen>
+    <dimen name="gridview_image_margin">3dp</dimen>
+    <dimen name="line_height">2dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="btn_controls_height">30dp</dimen>
+    <dimen name="width_0dp">0dp</dimen>
+    <dimen name="btn_repeat_shuffle_size">20dp</dimen>
+    <dimen name="btn_playlist_size">30dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="btn_previous_next_size">50dp</dimen>
+    <dimen name="btn_play_size">70dp</dimen>
+</resources>
